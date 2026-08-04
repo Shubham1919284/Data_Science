@@ -44,5 +44,6 @@ b=random.randint(1, 100)
 #     print(f"{x} is not eligible to vote.")
 #     print(f"{18-y} years left to vote.")
 
-for i in range(11,1,-3):
-    print(f"{a} + {b} = {a+b}")
+# for i in range(11,1,-3):
+#     print(f"{a} + {b} = {a+b}")
+

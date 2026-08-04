@@ -60,13 +60,42 @@ n=int(input("Enter a number: "))
 #     print(f"{n} is not a perfect number.")
 
 # -----------------------------------------------------------------------------------------------------------------------------
-count=0
-for i in range(1,n+1):
-    if n%i==0:
-        count+=1
-if count==2:
-    print(f"{n} is a prime number.")
-else:
-    print(f"{n} is not a prime number.")
+# count=0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count+=1
+# if count==2:
+#     print(f"{n} is a prime number.")
+# else:
+#     print(f"{n} is not a prime number.")
 
 # -----------------------------------------------------------------------------------------------------------------------------
+# a="Shubham"
+# temp=""
+# for i in range(len(a),0,-1):
+#     temp+=a[i-1]
+# l=reversed(a)
+# print(l)
+# print(f"Reverse of {a} is: {temp}")
+# if a==temp:
+#     print(f"{a} is a palindrome.")
+# else:
+#     print(f"{a} is not a palindrome.")    
+
+# -----------------------------------------------------------------------------------------------------------------------------
+a="SHua1239@#$48sdj"
+
+digit=0
+char=0
+spchar=0
+for i in a:
+    if i.isdigit():
+        digit+=1
+    elif i.isalpha():
+        char+=1
+    else:
+        spchar+=1
+
+print(f"Number of digits in {a} is: {digit}")
+print(f"Number of characters in {a} is: {char}")
+print(f"Number of special characters in {a} is: {spchar}")
