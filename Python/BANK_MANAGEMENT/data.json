@@ -1,0 +1,26 @@
+[
+    {
+        "name": "p",
+        "age": 33,
+        "email": "po",
+        "account_number": "R@558II",
+        "balance": 3000,
+        "pin": 3333
+    },
+    {
+        "name": "p",
+        "age": 63,
+        "email": "t",
+        "account_number": "9@10VLu",
+        "balance": 444,
+        "pin": 6363
+    },
+    {
+        "name": "p",
+        "age": 63,
+        "email": "t",
+        "account_number": "9@10uLu",
+        "balance": 0,
+        "pin": 6343
+    }
+]
