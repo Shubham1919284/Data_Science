@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Flask-WTF Form {% endblock %}</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #fff;
+        }
+        header, footer {
+            background: black;
+            color: white;
+            padding: 10px;
+        }
+        nav a {margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+        <h1>Flask-WTF Registration Form</h1>
+
+    {% with messages = get_flashed_messages(with_categories=True ) %}
+    {% if messages %}
+       
+            {% for category,message in messages %}
+               <p style="color: green;">{{message}}</p>
+            {% endfor %}
+        
+    {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+
+    <footer>
+        <p>
+            &copy; 2025 My Feedback Site. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>

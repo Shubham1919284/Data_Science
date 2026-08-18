@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %} Registration Page {% endblock %}
+
+{% block content %}
+<h2>Register Here</h2>
+
+<form method="POST" action="/">
+    
+    {{ form.hidden_tag()}}
+
+    <p>
+        {{ form.name.label}} <br>
+        {{form.name(size=32, placeholder="Enter your name")}} <br>
+        {% for errors in form.name.errors %}
+            <span style="color: red;">{{ form.name.errors[0] }}</span>
+        {% endfor %}
+    </p>
+
+     <p>
+        {{ form.email.label}} <br>
+        {{form.email(size=32, placeholder="Enter your E-mail")}} <br>
+        {% for errors in form.email.errors %}
+            <span style="color: red;">{{ form.error.errors[0] }}</span>
+        {% endfor %}
+    </p>
+
+     <p>
+        {{ form.password.label}} <br>
+        {{form.password(size=32, placeholder="Enter your password")}} <br>
+        {% for errors in form.password.errors %}
+            <span style="color: red;">{{ form.password.errors[0] }}</span>
+        {% endfor %}
+    </p>
+
+     <p>{{ form.submit() }}</p>
+    
+</form>
+{% endblock %}
