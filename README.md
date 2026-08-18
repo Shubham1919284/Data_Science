@@ -176,8 +176,8 @@ downloaded, and restored.
 
 <p align="center">
   <em>
-    “I don't want to remember where I saved the project.<br>
-    I want to know that it is here.”
+    "I don't want to remember where I saved the project.<br>
+    I want to know that it is here."
   </em>
 </p>
 
@@ -2086,7 +2086,7 @@ Images • icons • templates
 
 <p>
   <sub>
-    There is no “final version” of this repository.
+    There is no "final version" of this repository.
   </sub>
 </p>
 
