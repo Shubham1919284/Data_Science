@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Room Type Predictor · NYC Airbnb</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" id="bgGlow" aria-hidden="true"></div>
+
+  <div class="scene">
+
+    <!-- Header -->
+    <header class="site-head">
+      <div class="brand">
+        <span class="brand-mark" id="brandMark">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M3 21V9.5L12 3l9 6.5V21" stroke-linejoin="round"/>
+            <path d="M9 21v-7h6v7" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <div class="brand-text">
+          <span class="brand-title">Room Type Predictor</span>
+          <span class="brand-sub">NYC Airbnb · Random Forest Classifier</span>
+        </div>
+      </div>
+      <div class="status-pill" id="apiStatus">
+        <span class="status-dot" id="statusDot"></span>
+        <span id="statusLabel">checking API</span>
+      </div>
+    </header>
+
+    <!-- Main terminal -->
+    <main class="terminal">
+
+      <!-- LEFT: Listing sheet / form -->
+      <section class="pane pane-form" aria-label="Listing details form">
+        <div class="pane-head">
+          <span class="pane-eyebrow">01 — Listing Sheet</span>
+          <h1 class="pane-title">Describe the listing</h1>
+          <p class="pane-desc">Enter the listing's location, pricing and host signals. The model reads these the way it read every row of training data.</p>
+        </div>
+
+        <form id="predictForm" class="sheet-form" novalidate>
+
+          <!-- Location group -->
+          <fieldset class="field-group">
+            <legend>Location</legend>
+
+            <div class="field">
+              <label for="neighbourhood_group">Borough</label>
+              <select id="neighbourhood_group" name="neighbourhood_group" required>
+                <option value="" disabled selected>Select borough…</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="neighbourhood_search">Neighbourhood</label>
+              <div class="combo" id="comboWrap">
+                <input type="text" id="neighbourhood_search" class="combo-input" placeholder="Type to search 217 neighbourhoods…" autocomplete="off" required>
+                <input type="hidden" id="neighbourhood" name="neighbourhood">
+                <ul class="combo-list" id="comboList" role="listbox"></ul>
+              </div>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="latitude">Latitude</label>
+                <input type="number" id="latitude" name="latitude" step="0.000001" placeholder="40.730610" required>
+              </div>
+              <div class="field">
+                <label for="longitude">Longitude</label>
+                <input type="number" id="longitude" name="longitude" step="0.000001" placeholder="-73.935242" required>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- Pricing group -->
+          <fieldset class="field-group">
+            <legend>Pricing &amp; stay</legend>
+
+            <div class="field">
+              <label for="price">Price per night (USD)</label>
+              <div class="input-affix">
+                <span class="affix">$</span>
+                <input type="number" id="price" name="price" min="1" step="1" placeholder="150" required>
+              </div>
+            </div>
+
+            <div class="field slider-field">
+              <label for="minimum_nights">Minimum nights <span class="slider-value" id="minNightsVal">3</span></label>
+              <input type="range" id="minimum_nights" name="minimum_nights" min="1" max="365" value="3" required>
+            </div>
+
+            <div class="field slider-field">
+              <label for="availability_365">Availability (days / yr) <span class="slider-value" id="availVal">180</span></label>
+              <input type="range" id="availability_365" name="availability_365" min="0" max="365" value="180" required>
+            </div>
+          </fieldset>
+
+          <!-- Host & reviews group -->
+          <fieldset class="field-group">
+            <legend>Host &amp; reviews</legend>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="number_of_reviews">Total reviews</label>
+                <input type="number" id="number_of_reviews" name="number_of_reviews" min="0" step="1" placeholder="24" required>
+              </div>
+              <div class="field">
+                <label for="reviews_per_month">Reviews / month</label>
+                <input type="number" id="reviews_per_month" name="reviews_per_month" min="0" step="0.01" placeholder="1.20" required>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="calculated_host_listings_count">Host's total listings</label>
+              <input type="number" id="calculated_host_listings_count" name="calculated_host_listings_count" min="0" step="1" placeholder="1" required>
+            </div>
+          </fieldset>
+
+          <div class="form-actions">
+            <button type="button" class="btn-ghost" id="fillSampleBtn">Fill sample listing</button>
+            <button type="submit" class="btn-primary" id="predictBtn">
+              <span class="btn-label">Predict room type</span>
+              <span class="btn-loader" aria-hidden="true"></span>
+            </button>
+          </div>
+          <p class="form-error" id="formError" role="alert" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <!-- RIGHT: Prediction readout -->
+      <section class="pane pane-readout" aria-label="Prediction result">
+        <div class="pane-head">
+          <span class="pane-eyebrow">02 — Prediction Readout</span>
+          <h1 class="pane-title">Model output</h1>
+          <p class="pane-desc">Live classification across three room types, weighted by borough.</p>
+        </div>
+
+        <!-- Idle state -->
+        <div class="readout-idle" id="readoutIdle">
+          <svg class="idle-skyline" viewBox="0 0 320 140" aria-hidden="true">
+            <rect x="10" y="70" width="24" height="60" />
+            <rect x="42" y="40" width="20" height="90" />
+            <rect x="70" y="85" width="28" height="45" />
+            <rect x="106" y="20" width="22" height="110" />
+            <rect x="136" y="55" width="18" height="75" />
+            <rect x="162" y="30" width="26" height="100" />
+            <rect x="196" y="65" width="20" height="65" />
+            <rect x="224" y="45" width="24" height="85" />
+            <rect x="256" y="75" width="18" height="55" />
+            <rect x="282" y="15" width="28" height="115" />
+          </svg>
+          <p>Fill the listing sheet and run a prediction to see the model's readout here.</p>
+        </div>
+
+        <!-- Loading state -->
+        <div class="readout-loading" id="readoutLoading" hidden>
+          <div class="scan-line" aria-hidden="true"></div>
+          <p id="loadingText">Running inference…</p>
+        </div>
+
+        <!-- Result state -->
+        <div class="readout-result" id="readoutResult" hidden>
+
+          <div class="result-hero">
+            <span class="result-hero-label">Predicted room type</span>
+            <h2 class="result-hero-value" id="resultLabel">—</h2>
+            <span class="result-hero-conf" id="resultConfidence">— confidence</span>
+          </div>
+
+          <div class="prob-bars" id="probBars" aria-label="Class probabilities"></div>
+
+          <div class="result-meta">
+            <div class="meta-item">
+              <span class="meta-key">Neighbourhood</span>
+              <span class="meta-val" id="metaNeighbourhood">—</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-key">Borough</span>
+              <span class="meta-val" id="metaBorough">—</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-key">Price / night</span>
+              <span class="meta-val" id="metaPrice">—</span>
+            </div>
+          </div>
+
+          <button type="button" class="btn-ghost btn-block" id="resetBtn">Run another prediction</button>
+        </div>
+
+      </section>
+    </main>
+
+    <footer class="site-foot">
+      <span>FastAPI · scikit-learn RandomForestClassifier</span>
+      <span class="foot-dot">·</span>
+      <span id="apiBaseLabel">http://localhost:8000</span>
+    </footer>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
