@@ -5,27 +5,41 @@
 <!-- ========================================================= -->
 
 <a href="https://github.com/Shubham1919284/Data_Science">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:111827,50:1e293b,100:312e81&text=DATA%20SCIENCE&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Learning%20%E2%80%A2%20Building%20%E2%80%A2%20Experimenting%20%E2%80%A2%20Preserving&descAlignY=61&descSize=18&animation=fadeIn"
-    width="100%"
-    alt="Data Science Archive"
-  />
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=250&color=0:000000,50:111827,100:312e81&text=DATA%20SCIENCE&fontSize=64&fontColor=ffffff&fontAlignY=40&desc=Learning%20%E2%80%A2%20Building%20%E2%80%A2%20Experimenting%20%E2%80%A2%20Preserving&descAlignY=65&descSize=20&animation=fadeIn" width="100%" alt="Data Science Archive" />
 </a>
 
 <br>
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=900&lines=A+living+archive+of+my+technical+journey.;From+Python+fundamentals+to+Machine+Learning.;From+EDA+and+Data+Analysis+to+Power+BI.;From+small+experiments+to+complete+projects.;One+place+to+build%2C+learn%2C+revisit%2C+and+recover."
-  alt="Animated repository description"
-/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=818cf8&center=true&vCenter=true&width=900&lines=A+living+archive+of+my+technical+journey.;From+Python+fundamentals+to+Machine+Learning.;From+EDA+and+Data+Analysis+to+Power+BI.;From+small+experiments+to+complete+projects.;One+place+to+build%2C+learn%2C+revisit%2C+and+recover." alt="Animated repository description" />
 
 <br><br>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Shubham1919284&label=Profile%20Views&color=6366f1&style=for-the-badge" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/Shubham1919284?label=Followers&style=for-the-badge&color=818cf8&logo=github" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/Shubham1919284/Data_Science?style=for-the-badge&color=a5b4fc&logo=github" alt="Stars" />
+  <img src="https://img.shields.io/github/languages/top/Shubham1919284/Data_Science?style=for-the-badge&color=c7d2fe&logo=jupyter" alt="Top Language" />
+</p>
 
 <br>
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Shubham1919284&theme=tokyonight&margin-w=15&margin-h=15&no-frame=true" alt="Shubham1919284 Trophies" />
+  </a>
+</p>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Shubham1919284&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shubham1919284&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shubham1919284/Data_Science/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shubham1919284/Data_Science/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Shubham1919284/Data_Science/output/github-contribution-grid-snake.svg">
+  </picture>
 </p>
 <br>
 <table>
@@ -85,7 +99,7 @@ Personal Data Science Archive • Learning History • Project Vault • Remote 
 <br><br>
 
 <a href="#-repository-map">
-  <img src="https://img.shields.io/badge/↓%20EXPLORE%20THE%20ARCHIVE-6366F1?style=for-the-badge&logoColor=white" alt="Explore the archive">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24&height=40&text=%E2%86%93%20EXPLORE%20THE%20ARCHIVE&fontColor=ffffff&fontSize=16&fontAlignY=55&animation=twinkling" width="320"/>
 </a>
 
 </div>
@@ -99,7 +113,7 @@ Personal Data Science Archive • Learning History • Project Vault • Remote 
 
 <div align="center">
 
-## 🧭 WHY THIS ARCHIVE EXISTS
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,100:1e3a5f&height=60&text=%F0%9F%A7%AD%20WHY%20THIS%20ARCHIVE%20EXISTS&fontColor=ffffff&fontSize=22&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <br>
 
@@ -178,16 +192,13 @@ downloaded, and restored.
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:111827,100:312e81&height=12&section=header" width="100%"/>
 </p>
 
 ### 🔭 THE IDEA
 
 <p align="center">
-  <em>
-    “I don't want to remember where I saved the project.<br>
-    I want to know that it is here.”
-  </em>
+  <img src="https://readme-typing-svg.demolab.com?font=Georgia&style=italic&weight=400&size=18&duration=4000&pause=2000&color=818CF8&center=true&vCenter=true&width=750&lines=%22I+don%27t+want+to+remember+where+I+saved+the+project.%22;%22I+want+to+know+that+it+is+here.%22" alt="Archive Quote" />
 </p>
 
 <br>
@@ -210,12 +221,51 @@ graph TD;
 </div>
 
 <!-- ========================================================= -->
+<!--              SECTION 02.5 — MY JOURNEY                    -->
+<!-- ========================================================= -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f766e,100:0891b2&height=60&text=%E2%8F%B1%EF%B8%8F%20THE%20LEARNING%20JOURNEY&fontColor=ffffff&fontSize=22&fontAlignY=55&animation=fadeIn" width="100%"/>
+
+<br>
+
+<p>
+  <sub>
+    From writing my first line of Python to building end-to-end Machine Learning pipelines.
+  </sub>
+</p>
+
+<br>
+
+```mermaid
+timeline
+    title My Data Science Journey
+    2023 : Python Fundamentals : Variables, Loops, OOP
+         : Data Structures : Pandas, NumPy basics
+         : First EDA : Exploring datasets
+    2024 : Machine Learning : Sklearn, Models, Evaluation
+         : Data Visualization : Matplotlib, Seaborn, Power BI
+         : Web Applications : Flask APIs, deployment
+    2025 : Advanced Pipelines : End-to-end integration
+         : This Archive : Organizing and preserving the knowledge
+```
+
+<br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0891b2,100:1e293b&height=12&section=header" width="100%"/>
+</p>
+
+</div>
+
+<!-- ========================================================= -->
 <!--              SECTION 03 — REPOSITORY MAP                  -->
 <!-- ========================================================= -->
 
 <div align="center">
 
-## 🗺️ REPOSITORY MAP
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e293b,100:312e81&height=60&text=%F0%9F%97%BA%EF%B8%8F%20REPOSITORY%20MAP&fontColor=ffffff&fontSize=22&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <br>
 
@@ -412,7 +462,7 @@ Supporting Assets
 <br><br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:312e81,100:4c1d95&height=12&section=header" width="100%"/>
 </p>
 
 ### 🔭 THE ARCHIVE AT A GLANCE
@@ -443,7 +493,7 @@ graph TD;
 
 <div align="center">
 
-## 🧬 TECHNOLOGY UNIVERSE
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:312e81,100:4c1d95&height=60&text=%F0%9F%A7%AC%20TECHNOLOGY%20UNIVERSE&fontColor=ffffff&fontSize=22&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <br>
 
@@ -460,13 +510,8 @@ graph TD;
 
 <h3>💻 LANGUAGES & PROGRAMMING</h3>
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R">
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,r,html,css,js,flask,git,github,vscode,jupyter&theme=dark&perline=10" alt="Skill Icons" />
 </p>
 
 <br>
@@ -756,7 +801,7 @@ graph TD;
 
 <div align="center">
 
-## 🌌 PROJECT UNIVERSE
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f766e,100:0891b2&height=60&text=%F0%9F%8C%8C%20PROJECT%20UNIVERSE&fontColor=ffffff&fontSize=22&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <br>
 
@@ -799,6 +844,8 @@ Models • Experiments • Prediction • Classification • Feature Engineering
 
 <td align="center" width="33%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
+
 ### 🏠 NYC HOUSE TYPES
 
 <b>Classifying NYC House Types</b>
@@ -816,12 +863,14 @@ Web interface
 <br><br>
 
 <a href="./Machine%20Learning/Projects/Classifying%20NYC%20House%20Types/">
-  <img src="https://img.shields.io/badge/OPEN%20PROJECT-6366F1?style=flat-square" alt="Open NYC project">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=35&text=OPEN%20PROJECT&fontColor=ffffff&fontSize=14&animation=twinkling" width="150" alt="Open NYC project">
 </a>
 
 </td>
 
 <td align="center" width="33%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
 
 ### 🛍️ BLACK FRIDAY
 
@@ -840,12 +889,14 @@ Prediction application
 <br><br>
 
 <a href="./Machine%20Learning/Projects/black-friday-purchase-prediction-master/">
-  <img src="https://img.shields.io/badge/OPEN%20PROJECT-6366F1?style=flat-square" alt="Open Black Friday project">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=35&text=OPEN%20PROJECT&fontColor=ffffff&fontSize=14&animation=twinkling" width="150" alt="Open Black Friday project">
 </a>
 
 </td>
 
 <td align="center" width="33%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
 
 ### 🌍 LANGUAGE
 
@@ -863,7 +914,7 @@ Text classification work
 <br><br>
 
 <a href="./Machine%20Learning/Projects/Language%20Detection/">
-  <img src="https://img.shields.io/badge/OPEN%20PROJECT-6366F1?style=flat-square" alt="Open language detection project">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=35&text=OPEN%20PROJECT&fontColor=ffffff&fontSize=14&animation=twinkling" width="150" alt="Open language detection project">
 </a>
 
 </td>
@@ -913,6 +964,8 @@ Explore • Clean • Transform • Visualize • Understand
 
 <td align="center" width="25%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
+
 ### 🏠
 **AIRBNB**
 
@@ -921,6 +974,8 @@ EDA and exploration of Airbnb data.
 </td>
 
 <td align="center" width="25%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
 
 ### 🛒
 **E-COMMERCE**
@@ -931,6 +986,8 @@ Sales and business-oriented analysis.
 
 <td align="center" width="25%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
+
 ### 🎬
 **NETFLIX**
 
@@ -939,6 +996,8 @@ Content-oriented exploratory analysis.
 </td>
 
 <td align="center" width="25%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
 
 ### ☎️
 **TELECOM**
@@ -1033,7 +1092,7 @@ Additional experiments and analytical notebooks.
 </details>
 <br>
 <a href="./Python%20Projects(DA)/">
-  <img src="https://img.shields.io/badge/EXPLORE%20DATA%20ANALYSIS%20PROJECTS-0891B2?style=for-the-badge" alt="Explore Data Analysis">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=40&text=EXPLORE%20DATA%20ANALYSIS%20PROJECTS&fontColor=ffffff&fontSize=14&animation=twinkling" width="300" alt="Explore Data Analysis">
 </a>
 
 <br><br><br>
@@ -1067,6 +1126,8 @@ Dashboards • Business Intelligence • Visual Storytelling • Reporting
 
 <td align="center" width="33%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
+
 ### ✈️ AIRLINES
 
 Flight dashboard work<br>
@@ -1078,6 +1139,8 @@ Case-study reports
 
 <td align="center" width="33%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
+
 ### 💪 FITNESS
 
 Fitness analytical dashboards<br>
@@ -1088,6 +1151,8 @@ Visual assets
 </td>
 
 <td align="center" width="33%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
 
 ### 🎵 SPOTIFY
 
@@ -1103,6 +1168,8 @@ Supporting datasets
 
 <td align="center" width="33%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
+
 ### ☁️ WEATHER
 
 Weather dashboard work<br>
@@ -1113,6 +1180,8 @@ Supporting assets
 
 <td align="center" width="33%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
+
 ### 💼 TECH LAYOFFS
 
 Global technology layoffs<br>
@@ -1122,6 +1191,8 @@ Multiple supporting datasets
 </td>
 
 <td align="center" width="33%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
 
 ### 📺 DHARMENDRA
 
@@ -1138,6 +1209,8 @@ Visual assets
 
 <td align="center" width="33%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
+
 ### 🛒 E-COMMERCE
 
 Cart / store analysis<br>
@@ -1148,6 +1221,8 @@ Supporting Excel data
 
 <td align="center" width="33%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
+
 ### ☎️ TELECOM
 
 Churn dashboard work<br>
@@ -1157,6 +1232,8 @@ Power BI files
 </td>
 
 <td align="center" width="33%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=8" width="100%"/>
 
 ### 🧪 MORE
 
@@ -1172,7 +1249,7 @@ and archived data
 </details>
 <br>
 <a href="./_Power_BI_Projects_/">
-  <img src="https://img.shields.io/badge/EXPLORE%20POWER%20BI%20ARCHIVE-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000" alt="Explore Power BI">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=F2C811&height=40&text=EXPLORE%20POWER%20BI%20ARCHIVE&fontColor=000000&fontSize=14&animation=twinkling" width="300" alt="Explore Power BI">
 </a>
 
 <br><br><br>
@@ -1362,7 +1439,7 @@ Practice programs • Interview exercises • Small utilities
 <br><br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f766e,100:0891b2&height=12&section=header" width="100%"/>
 </p>
 
 ## 🧭 HOW TO READ THIS ARCHIVE
@@ -1370,6 +1447,8 @@ Practice programs • Interview exercises • Small utilities
 <table>
 <tr>
 <td align="center" width="25%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
 
 ### 🌱
 <b>FOUNDATION</b>
@@ -1381,6 +1460,8 @@ Learn the concept.
 
 <td align="center" width="25%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
+
 ### 🧪
 <b>EXPERIMENT</b>
 
@@ -1391,6 +1472,8 @@ Test the concept.
 
 <td align="center" width="25%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
+
 ### 🛠️
 <b>BUILD</b>
 
@@ -1400,6 +1483,8 @@ Turn it into a project.
 </td>
 
 <td align="center" width="25%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
 
 ### 🗄️
 <b>PRESERVE</b>
@@ -1413,43 +1498,25 @@ Keep it for future use.
 
 <br>
 
-```text
-                     PROJECT UNIVERSE
+```mermaid
+graph TD;
+    A["🌱 FOUNDATIONS<br/>Python • NumPy • Pandas • R • Coding"] --> B["📊 ANALYTICS<br/>EDA • Excel • Power BI • Visualization"];
+    B --> C["🤖 MACHINE LEARNING<br/>Features • Models • Evaluation • PKL"];
+    C --> D["🌐 APPLICATIONS<br/>Flask • Interfaces • Pipelines"];
+    D --> E["🗄️ ARCHIVE<br/>Code • Data • Models • Reports<br/>Dashboards • Notebooks"];
 
-     ┌───────────────────────────────────────────┐
-     │                FOUNDATIONS                │
-     │                                           │
-     │   Python • NumPy • Pandas • R • Coding   │
-     └──────────────────────┬────────────────────┘
-                            │
-                            ▼
-     ┌───────────────────────────────────────────┐
-     │                ANALYTICS                  │
-     │                                           │
-     │   EDA • Excel • Power BI • Visualization │
-     └──────────────────────┬────────────────────┘
-                            │
-                            ▼
-     ┌───────────────────────────────────────────┐
-     │             MACHINE LEARNING              │
-     │                                           │
-     │  Features • Models • Evaluation • PKL    │
-     └──────────────────────┬────────────────────┘
-                            │
-                            ▼
-     ┌───────────────────────────────────────────┐
-     │              APPLICATIONS                 │
-     │                                           │
-     │       Flask • Interfaces • Pipelines      │
-     └──────────────────────┬────────────────────┘
-                            │
-                            ▼
-     ┌───────────────────────────────────────────┐
-     │                 ARCHIVE                   │
-     │                                           │
-     │     Code • Data • Models • Reports        │
-     │           Dashboards • Notebooks          │
-     └───────────────────────────────────────────┘
+    classDef default fill:#1e293b,stroke:#6366F1,stroke-width:2px,color:#fff;
+    classDef found fill:#0f766e,stroke:#14b8a6,stroke-width:2px,color:#fff;
+    classDef ana fill:#0891b2,stroke:#06b6d4,stroke-width:2px,color:#fff;
+    classDef ml fill:#7c3aed,stroke:#a78bfa,stroke-width:2px,color:#fff;
+    classDef app fill:#1d4ed8,stroke:#60a5fa,stroke-width:2px,color:#fff;
+    classDef arch fill:#312e81,stroke:#818cf8,stroke-width:3px,color:#fff;
+
+    class A found;
+    class B ana;
+    class C ml;
+    class D app;
+    class E arch;
 ```
 
 </div>
@@ -1460,7 +1527,7 @@ Keep it for future use.
 
 <div align="center">
 
-## ⚙️ THE LEARNING ENGINE
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:78350f,100:d97706&height=60&text=%E2%9A%99%EF%B8%8F%20THE%20LEARNING%20ENGINE&fontColor=ffffff&fontSize=22&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <br>
 
@@ -1514,7 +1581,7 @@ Sometimes the output is simply a better understanding.
 
 <div align="center">
 
-## 🗄️ ARCHIVE PHILOSOPHY
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e293b,100:334155&height=60&text=%F0%9F%97%84%EF%B8%8F%20ARCHIVE%20PHILOSOPHY&fontColor=ffffff&fontSize=22&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <br>
 
@@ -1592,7 +1659,7 @@ Sometimes the output is simply a better understanding.
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1e293b,100:334155&height=12&section=header" width="100%"/>
 </p>
 
 ## 🧩 WHAT GETS PRESERVED?
@@ -1603,6 +1670,8 @@ Sometimes the output is simply a better understanding.
 <tr>
 
 <td align="center" width="25%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
 
 ### 📓 NOTEBOOKS
 
@@ -1617,6 +1686,8 @@ Exploration
 </td>
 
 <td align="center" width="25%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
 
 ### 💻 SOURCE CODE
 
@@ -1633,6 +1704,8 @@ JavaScript
 
 <td align="center" width="25%">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
+
 ### 🗃️ DATA & INPUTS
 
 <br>
@@ -1645,6 +1718,8 @@ Supporting datasets
 </td>
 
 <td align="center" width="25%">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=8" width="100%"/>
 
 ### 📦 OUTPUTS
 
@@ -1664,27 +1739,20 @@ Artifacts
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:4c1d95,100:6366f1&height=12&section=header" width="100%"/>
 </p>
 
 ## 🕰️ EVERY PROJECT HAS A DIFFERENT VALUE
 
 <br>
 
-```mermaid
-graph TD;
-    A[LEARN] --> B[PRACTICE];
-    B --> C[EXPERIMENT];
-    B --> D[BUILD];
-    C --> E[DOCUMENT / SAVE];
-    D --> E;
-    E --> F[CENTRAL ARCHIVE];
-    F --> G[FUTURE REFERENCE];
-    F --> H[FUTURE RECOVERY];
-    F --> I[FUTURE REUSE];
-
-    classDef default fill:#1e293b,stroke:#6366F1,stroke-width:2px,color:#fff;
-```
+| | Category | Description |
+|:---:|:---|:---|
+| <img src="https://img.shields.io/badge/●%20CURRENT%20WORK-22c55e?style=for-the-badge"> | **Active Projects** | Projects I may still actively improve or reuse. |
+| <img src="https://img.shields.io/badge/●%20REFERENCE%20WORK-3b82f6?style=for-the-badge"> | **Reference Work** | Projects I may revisit to remember how something works. |
+| <img src="https://img.shields.io/badge/●%20LEARNING%20WORK-eab308?style=for-the-badge"> | **Learning Work** | Exercises and experiments that document progress. |
+| <img src="https://img.shields.io/badge/●%20HISTORICAL%20WORK-a855f7?style=for-the-badge"> | **Historical Work** | Older projects preserved because they are part of the technical journey. |
+| <img src="https://img.shields.io/badge/●%20FAILED%20/%20INCOMPLETE-ef4444?style=for-the-badge"> | **Failed / Incomplete** | Attempts that did not become final products — but may still contain useful ideas, code, or lessons. |
 
 </div>
 
@@ -1694,7 +1762,7 @@ graph TD;
 
 <div align="center">
 
-## 📡 REPOSITORY SNAPSHOT
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0c4a6e,100:0369a1&height=60&text=%F0%9F%93%A1%20REPOSITORY%20SNAPSHOT&fontColor=ffffff&fontSize=22&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <br>
 
@@ -1956,7 +2024,7 @@ graph TD;
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0c4a6e,100:1e3a5f&height=12&section=header" width="100%"/>
 </p>
 
 <br>
@@ -1973,45 +2041,38 @@ graph TD;
 
 <br>
 
-```text
-                         ┌─────────────────┐
-                         │     START       │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │      LEARN      │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │      BUILD      │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │     EXPLORE     │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │     IMPROVE     │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │     PRESERVE    │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │     RETURN      │
-                         └────────┬────────┘
-                                  │
-                                  └───────────────┐
-                                                  │
-                                                  ▼
-                                               LEARN
+```mermaid
+graph TD;
+    A["🚀 START"] --> B["📖 LEARN"];
+    B --> C["🛠️ BUILD"];
+    C --> D["🔭 EXPLORE"];
+    D --> E["⚡ IMPROVE"];
+    E --> F["💾 PRESERVE"];
+    F --> G["🔄 RETURN"];
+    G -->|"∞ The cycle never ends"| B;
+
+    classDef default fill:#1e293b,stroke:#6366F1,stroke-width:2px,color:#fff;
+    classDef start fill:#312e81,stroke:#818cf8,stroke-width:3px,color:#fff;
+    classDef loop fill:#6366F1,stroke:#a5b4fc,stroke-width:2px,color:#fff;
+
+    class A start;
+    class G loop;
 ```
 
+
+<div align="center">
+  <a href="https://github.com/Shubham1919284">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+  </a>
+</div>
+
+<br>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3000&pause=1000&color=818cf8&center=true&vCenter=true&width=700&lines=This+archive+is+still+growing.;Every+commit+is+a+step+forward.;The+journey+never+stops." alt="Growing archive" />
+</p>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=0:312e81,50:111827,100:000000&section=footer&text=Shubham%20%E2%80%A2%20Data%20Science%20Archive&fontSize=24&fontColor=ffffff&fontAlignY=70&animation=fadeIn" width="100%"/>
 </div>
