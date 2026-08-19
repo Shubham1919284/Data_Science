@@ -21,6 +21,13 @@
 
 <br><br>
 
+
+<br>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shubham1919284&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shubham1919284&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+<br>
 <table>
 <tr>
 <td align="center">
@@ -170,14 +177,16 @@ downloaded, and restored.
 
 <br>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
 
 ### 🔭 THE IDEA
 
 <p align="center">
   <em>
-    "I don't want to remember where I saved the project.<br>
-    I want to know that it is here."
+    “I don't want to remember where I saved the project.<br>
+    I want to know that it is here.”
   </em>
 </p>
 
@@ -413,7 +422,9 @@ Supporting Assets
 
 <br><br>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
 
 ### 🔭 THE ARCHIVE AT A GLANCE
 
@@ -833,6 +844,10 @@ Models • Experiments • Prediction • Classification • Feature Engineering
 
 <br>
 
+<details>
+<summary><b>✨ Click to Expand Machine Learning Projects</b></summary>
+<br>
+
 <table>
 <tr>
 
@@ -910,8 +925,8 @@ Text classification work
 </tr>
 </table>
 
+</details>
 <br>
-
 <p>
   <b>Implementation work</b>
   <br>
@@ -941,6 +956,10 @@ Explore • Clean • Transform • Visualize • Understand
 </tr>
 </table>
 
+<br>
+
+<details>
+<summary><b>✨ Click to Expand Data Analysis Projects</b></summary>
 <br>
 
 <table>
@@ -1065,8 +1084,8 @@ Additional experiments and analytical notebooks.
 </tr>
 </table>
 
+</details>
 <br>
-
 <a href="./Python%20Projects(DA)/">
   <img src="https://img.shields.io/badge/EXPLORE%20DATA%20ANALYSIS%20PROJECTS-0891B2?style=for-the-badge" alt="Explore Data Analysis">
 </a>
@@ -1091,6 +1110,10 @@ Dashboards • Business Intelligence • Visual Storytelling • Reporting
 </tr>
 </table>
 
+<br>
+
+<details>
+<summary><b>✨ Click to Expand Power BI Projects</b></summary>
 <br>
 
 <table>
@@ -1200,8 +1223,8 @@ and archived data
 </tr>
 </table>
 
+</details>
 <br>
-
 <a href="./_Power_BI_Projects_/">
   <img src="https://img.shields.io/badge/EXPLORE%20POWER%20BI%20ARCHIVE-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000" alt="Explore Power BI">
 </a>
@@ -1392,7 +1415,9 @@ Practice programs • Interview exercises • Small utilities
 
 <br><br>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
 
 ## 🧭 HOW TO READ THIS ARCHIVE
 
@@ -1530,81 +1555,10 @@ Sometimes the output is simply a better understanding.
 
 <br>
 
-```text
-                         ┌───────────────────┐
-                         │       LEARN       │
-                         │                   │
-                         │ Concepts          │
-                         │ Syntax            │
-                         │ Algorithms        │
-                         └─────────┬─────────┘
-                                   │
-                                   ▼
-                         ┌───────────────────┐
-                         │     PRACTICE      │
-                         │                   │
-                         │ Small programs    │
-                         │ Exercises         │
-                         │ Notebooks         │
-                         └─────────┬─────────┘
-                                   │
-                                   ▼
-                         ┌───────────────────┐
-                         │    EXPERIMENT     │
-                         │                   │
-                         │ Try ideas         │
-                         │ Change approaches │
-                         │ Test assumptions  │
-                         └─────────┬─────────┘
-                                   │
-                                   ▼
-                         ┌───────────────────┐
-                         │      BUILD        │
-                         │                   │
-                         │ Projects          │
-                         │ Dashboards        │
-                         │ Applications      │
-                         │ Models            │
-                         └─────────┬─────────┘
-                                   │
-                                   ▼
-                         ┌───────────────────┐
-                         │      BREAK        │
-                         │                   │
-                         │ Bugs              │
-                         │ Failed approaches │
-                         │ Wrong assumptions │
-                         └─────────┬─────────┘
-                                   │
-                                   ▼
-                         ┌───────────────────┐
-                         │      IMPROVE      │
-                         │                   │
-                         │ Debug             │
-                         │ Refactor          │
-                         │ Rebuild           │
-                         └─────────┬─────────┘
-                                   │
-                                   ▼
-                         ┌───────────────────┐
-                         │     PRESERVE      │
-                         │                   │
-                         │ Code              │
-                         │ Data              │
-                         │ Models            │
-                         │ Reports           │
-                         └─────────┬─────────┘
-                                   │
-                                   │
-                                   └───────────────┐
-                                                   │
-                                                   ▼
-                                              ┌─────────┐
-                                              │ REVISIT │
-                                              └────┬────┘
-                                                   │
-                                                   └──────► LEARN
-```
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=LEARN+→+PRACTICE+→+EXPERIMENT;BUILD+→+BREAK+→+IMPROVE;PRESERVE+→+REVISIT+→+LEARN" alt="The Learning Loop" />
+</p>
+
 
 </div>
 
@@ -1691,7 +1645,9 @@ Sometimes the output is simply a better understanding.
 
 <br>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
 
 ## 🧩 WHAT GETS PRESERVED?
 
@@ -1761,7 +1717,9 @@ Artifacts
 
 <br>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
 
 ## 🕰️ EVERY PROJECT HAS A DIFFERENT VALUE
 
@@ -2076,7 +2034,9 @@ Images • icons • templates
 
 <br>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
 
 <br>
 
@@ -2086,7 +2046,7 @@ Images • icons • templates
 
 <p>
   <sub>
-    There is no "final version" of this repository.
+    There is no “final version” of this repository.
   </sub>
 </p>
 
