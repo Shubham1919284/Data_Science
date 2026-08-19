@@ -192,30 +192,19 @@ downloaded, and restored.
 
 <br>
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│   LEARN                                                       │
-│      │                                                       │
-│      ▼                                                       │
-│   PRACTICE ───────────────┐                                  │
-│      │                    │                                  │
-│      ▼                    ▼                                  │
-│   EXPERIMENT           BUILD                                 │
-│      │                    │                                  │
-│      └──────────┬─────────┘                                  │
-│                 ▼                                            │
-│            DOCUMENT / SAVE                                  │
-│                 │                                            │
-│                 ▼                                            │
-│          CENTRAL ARCHIVE                                    │
-│                 │                                            │
-│                 ▼                                            │
-│        FUTURE REFERENCE                                     │
-│        FUTURE RECOVERY                                      │
-│        FUTURE REUSE                                         │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
+```mermaid
+graph TD;
+    A[LEARN] --> B[PRACTICE];
+    B --> C[EXPERIMENT];
+    B --> D[BUILD];
+    C --> E[DOCUMENT / SAVE];
+    D --> E;
+    E --> F[CENTRAL ARCHIVE];
+    F --> G[FUTURE REFERENCE];
+    F --> H[FUTURE RECOVERY];
+    F --> I[FUTURE REUSE];
+
+    classDef default fill:#1e293b,stroke:#6366F1,stroke-width:2px,color:#fff;
 ```
 
 </div>
@@ -428,40 +417,22 @@ Supporting Assets
 
 ### 🔭 THE ARCHIVE AT A GLANCE
 
-```text
-                         ┌──────────────────────┐
-                         │    DATA_SCIENCE      │
-                         │    MASTER ARCHIVE    │
-                         └──────────┬───────────┘
-                                    │
-          ┌─────────────────────────┼─────────────────────────┐
-          │                         │                         │
-          ▼                         ▼                         ▼
-   ┌───────────────┐        ┌───────────────┐        ┌───────────────┐
-   │   PROGRAMMING │        │   ANALYTICS   │        │  INTELLIGENCE │
-   │               │        │               │        │               │
-   │ Python        │        │ Data Analysis │        │ ML            │
-   │ R             │        │ Excel         │        │ Experiments   │
-   │ Flask         │        │ Power BI      │        │ Models        │
-   └───────┬───────┘        └───────┬───────┘        └───────┬───────┘
-           │                         │                        │
-           └─────────────────────────┼────────────────────────┘
-                                     │
-                                     ▼
-                          ┌──────────────────────┐
-                          │       PRACTICE       │
-                          │   LEARN • TEST •     │
-                          │     EXPERIMENT       │
-                          └──────────┬───────────┘
-                                     │
-                                     ▼
-                          ┌──────────────────────┐
-                          │      ARCHIVE         │
-                          │                      │
-                          │ Code • Data • Models │
-                          │ Reports • Dashboards │
-                          │      • Notebooks     │
-                          └──────────────────────┘
+```mermaid
+graph TD;
+    DS[DATA SCIENCE MASTER ARCHIVE] --> PROG[PROGRAMMING];
+    DS --> ANA[ANALYTICS];
+    DS --> INT[INTELLIGENCE];
+
+    PROG --> PY[Python] & R[R] & FL[Flask];
+    ANA --> DA[Data Analysis] & EX[Excel] & PB[Power BI];
+    INT --> ML[ML] & EX2[Experiments] & MOD[Models];
+
+    PY & R & FL & DA & EX & PB & ML & EX2 & MOD --> PRAC[PRACTICE<br/>Learn • Test • Experiment];
+    PRAC --> ARCH[ARCHIVE<br/>Code • Data • Models<br/>Reports • Dashboards • Notebooks];
+
+    classDef default fill:#1e293b,stroke:#6366F1,stroke-width:2px,color:#fff;
+    classDef main fill:#312e81,stroke:#818cf8,stroke-width:3px,color:#fff;
+    class DS,ARCH main;
 ```
 
 </div>
@@ -757,49 +728,24 @@ Exploratory analysis
 
 <br>
 
-```text
-                          ┌─────────────────────┐
-                          │       DATA          │
-                          │ CSV • JSON • XLSX   │
-                          └──────────┬──────────┘
-                                     │
-                                     ▼
-                          ┌─────────────────────┐
-                          │      PYTHON         │
-                          │ NumPy • Pandas      │
-                          │ Cleaning • EDA      │
-                          └──────────┬──────────┘
-                                     │
-                       ┌─────────────┴─────────────┐
-                       │                           │
-                       ▼                           ▼
-              ┌─────────────────┐        ┌─────────────────┐
-              │   ANALYTICS     │        │   ML PIPELINE   │
-              │                 │        │                 │
-              │ Visualization   │        │ Features        │
-              │ Insights        │        │ Training        │
-              │ Reporting       │        │ Evaluation      │
-              └────────┬────────┘        └────────┬────────┘
-                       │                          │
-                       ▼                          ▼
-              ┌─────────────────┐        ┌─────────────────┐
-              │ Power BI /      │        │ Models / PKL    │
-              │ Excel / Reports │        │ Predictions     │
-              └────────┬────────┘        └────────┬────────┘
-                       │                          │
-                       └────────────┬─────────────┘
-                                    ▼
-                          ┌─────────────────────┐
-                          │     APPLICATIONS    │
-                          │  Flask • Interfaces │
-                          └──────────┬──────────┘
-                                     │
-                                     ▼
-                          ┌─────────────────────┐
-                          │       ARCHIVE       │
-                          │ Code • Data • Model │
-                          │ Reports • Projects  │
-                          └─────────────────────┘
+```mermaid
+graph TD;
+    D[DATA<br/>CSV • JSON • XLSX] --> PY[PYTHON<br/>NumPy • Pandas<br/>Cleaning • EDA];
+    PY --> ANA[ANALYTICS<br/>Visualization<br/>Insights • Reporting];
+    PY --> ML[ML PIPELINE<br/>Features • Training • Evaluation];
+    
+    ANA --> BI[Power BI / Excel / Reports];
+    ML --> MOD[Models / PKL<br/>Predictions];
+    
+    BI & MOD --> APP[APPLICATIONS<br/>Flask • Interfaces];
+    APP --> ARC[ARCHIVE<br/>Code • Data • Model<br/>Reports • Projects];
+
+    classDef default fill:#1e293b,stroke:#6366F1,stroke-width:2px,color:#fff;
+    classDef blue fill:#0891B2,stroke:#06b6d4,stroke-width:2px,color:#fff;
+    classDef purple fill:#7C3AED,stroke:#a78bfa,stroke-width:2px,color:#fff;
+    
+    class ANA,BI blue;
+    class ML,MOD purple;
 ```
 
 </div>
@@ -1725,35 +1671,19 @@ Artifacts
 
 <br>
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│   🟢 CURRENT WORK                                            │
-│      Projects I may still actively improve or reuse.        │
-│                                                              │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│   🔵 REFERENCE WORK                                          │
-│      Projects I may revisit to remember how something works. │
-│                                                              │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│   🟡 LEARNING WORK                                           │
-│      Exercises and experiments that document progress.       │
-│                                                              │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│   🟣 HISTORICAL WORK                                         │
-│      Older projects preserved because they are part of       │
-│      the technical journey.                                  │
-│                                                              │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│   🔴 FAILED / INCOMPLETE WORK                                │
-│      Attempts that did not become final products — but may   │
-│      still contain useful ideas, code, or lessons.           │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
+```mermaid
+graph TD;
+    A[LEARN] --> B[PRACTICE];
+    B --> C[EXPERIMENT];
+    B --> D[BUILD];
+    C --> E[DOCUMENT / SAVE];
+    D --> E;
+    E --> F[CENTRAL ARCHIVE];
+    F --> G[FUTURE REFERENCE];
+    F --> H[FUTURE RECOVERY];
+    F --> I[FUTURE REUSE];
+
+    classDef default fill:#1e293b,stroke:#6366F1,stroke-width:2px,color:#fff;
 ```
 
 </div>
@@ -1995,33 +1925,24 @@ Images • icons • templates
 
 <br>
 
-```text
-                         DATA_SCIENCE
-                              │
-             ┌────────────────┼────────────────┐
-             │                │                │
-             ▼                ▼                ▼
-        PROGRAMMING       ANALYTICS       INTELLIGENCE
-             │                │                │
-       ┌─────┼─────┐      ┌───┼───┐      ┌────┼────┐
-       │     │     │      │   │   │      │    │    │
-       ▼     ▼     ▼      ▼   ▼   ▼      ▼    ▼    ▼
-    Python   R   Flask   EDA Excel BI   ML  Models Data
-       │          │       │    │   │      │    │
-       └──────────┴───────┴────┴───┴──────┴────┘
-                              │
-                              ▼
-                       PROJECT ARTIFACTS
-                              │
-          ┌────────────┬──────┼──────┬────────────┐
-          │            │      │      │            │
-          ▼            ▼      ▼      ▼            ▼
-        CODE       NOTEBOOKS DATA   REPORTS    DASHBOARDS
-          │            │      │      │            │
-          └────────────┴──────┴──────┴────────────┘
-                              │
-                              ▼
-                         GITHUB ARCHIVE
+```mermaid
+graph TD;
+    DS[DATA_SCIENCE] --> PRG[PROGRAMMING];
+    DS --> ANA[ANALYTICS];
+    DS --> INT[INTELLIGENCE];
+
+    PRG --> PY[Python] & R[R] & FL[Flask];
+    ANA --> EDA[EDA] & EX[Excel] & BI[BI];
+    INT --> ML[ML] & MOD[Models] & DAT[Data];
+
+    PY & R & FL & EDA & EX & BI & ML & MOD & DAT --> PA[PROJECT ARTIFACTS];
+    
+    PA --> CODE[CODE] & NOTE[NOTEBOOKS] & DATA[DATA] & REP[REPORTS] & DASH[DASHBOARDS];
+    CODE & NOTE & DATA & REP & DASH --> GA[GITHUB ARCHIVE];
+
+    classDef default fill:#1e293b,stroke:#6366F1,stroke-width:2px,color:#fff;
+    classDef root fill:#312e81,stroke:#818cf8,stroke-width:3px,color:#fff;
+    class DS,GA root;
 ```
 
 </div>
